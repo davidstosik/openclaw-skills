@@ -1,17 +1,35 @@
-# OpenClaw Skills
+# OpenClaw Tools
 
-Custom skills for OpenClaw/Codex.
+Public collection of skills and scripts for OpenClaw.
+
+## Structure
+
+```
+openclaw-tools/
+├── project-tracker/           # Skill: Track life projects with context
+└── scripts/
+    └── rate-limit-auto-switch/  # Auto-failover when Claude hits rate limits
+```
 
 ## Skills
 
-- **project-tracker** - Track ongoing life projects with implicit context detection and conversation capture
+### project-tracker
+Track ongoing life projects with implicit context detection and conversation capture.
 
-## Installation
-
+**Installation:**
 ```bash
-openclaw skills install <skill-name>.skill
+openclaw skills install project-tracker.skill
 ```
 
-## Contributing
+## Scripts
 
-Feel free to use, modify, or contribute improvements!
+### rate-limit-auto-switch
+Automatically detect Claude API rate limits, switch to GPT-4o, and restore when limit expires.
+
+**Installation:**
+```bash
+cd scripts/rate-limit-auto-switch
+./install.sh
+```
+
+See individual directories for detailed documentation.
