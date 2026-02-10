@@ -204,7 +204,7 @@ You: [Create projects/japanese-study.md]
    - Action items
    - Research findings
 
-3. **Prompt when uncertain:** If unsure whether to save, ask: "Should I add this to [project]?"
+3. **Act, don't ask:** When you notice something relevant to a project (limitations, decisions, findings, etc.), add it immediately and inform the user. Don't ask permission - just do it and tell them: "📝 Added notes to [project]"
 
 4. **Use timestamps:** Always include UTC timestamps for new entries.
 
