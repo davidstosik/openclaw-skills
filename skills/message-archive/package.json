@@ -1,0 +1,22 @@
+{
+  "name": "@openclaw/skill-message-archive",
+  "version": "1.1.0",
+  "description": "Complete conversation history archive with sessions, events, and backfill capability",
+  "main": "lib/archive-db.js",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "init": "node tools/archive-init.js",
+    "scan": "node tools/archive-scan.js",
+    "query": "node tools/archive-query.js",
+    "backfill": "node tools/archive-backfill.js",
+    "sessions-backfill": "node tools/archive-sessions-backfill.js"
+  },
+  "keywords": ["openclaw", "archive", "messages", "events", "sessions", "search"],
+  "author": "OpenClaw",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.1",
+    "better-sqlite3": "^11.0.0"
+  },
+  "devDependencies": {}
+}

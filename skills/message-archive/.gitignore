@@ -1,0 +1,18 @@
+# Node modules
+node_modules/
+
+# Test artifacts
+test/test-*.db
+test/test-*.db-wal
+test/test-*.db-shm
+test/test-exports/
+
+# Development
+*.log
+*.swp
+.DS_Store
+
+# Database files (user data - should be backed up separately)
+*.db
+*.db-wal
+*.db-shm
