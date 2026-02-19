@@ -15,7 +15,7 @@
   "author": "OpenClaw",
   "license": "MIT",
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.39.1",
+    "@anthropic-ai/sdk": "^0.76.0",
     "better-sqlite3": "^11.0.0"
   },
   "devDependencies": {}
